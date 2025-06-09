@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact -Visual Arrtist Portfolio </title>
     <link rel="stylesheet" href="work.css">
+    <link rel="icon" href="cropped-visual-artist-favicon-32x32.png">
 </head>
 <body>
     <header>
@@ -13,12 +14,12 @@
             <ul class="sidebar">
                 <li  onclick="closemenu()"><img src="close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" class="closeBtn" alt=""></li>
                 <li onclick="closemenu()"><a href="index.html">Home</a></li>
-                <li onclick="closemenu()"><a href="work.html">Work</a></li>
+                <li onclick="closemenu()"><a  href="work.html" class="page">Work</a></li>
                 <li onclick="closemenu()"><a href="contact.html">Contact</a></li>
             </ul>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="work.html">Work</a></li>
+                <li><a  href="work.html" class="page">Work</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><img onclick="showmenu()" src="menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" class="menuBtn" alt=""></li>
             </ul>
@@ -31,6 +32,21 @@
 
 
 
+
+    <!--Footer starts here-->
+    <footer>
+        <div>
+            <p>	&copy; 2025 Visual Artist Portfolio <br> Visual designer </p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Dribbble</a></li>
+                <li><a href="#">Linkedln</a></li>
+            </ul>
+        </nav>
+    </footer>
+
     <script>
         const sidebr=document.querySelector('.sidebar')
         function showmenu(){
@@ -41,6 +57,5 @@
         }
     </script>
 
-    
 </body>
 </html>

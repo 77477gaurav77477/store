@@ -13,7 +13,7 @@
     color: black;
 }
 header{
-    padding-left: 20px;
+    padding-left: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,3 +64,40 @@ header nav ul li a:hover{
     top: 0;
     right: 0;
 }
+.menuBtn{
+    display: none;
+}
+.page{
+    color: rgb(153, 80, 221);
+}
+
+
+
+
+
+
+footer{
+    border: 1px solid rgb(182, 231, 244);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    align-items: flex-end;
+}
+footer nav ul{
+    list-style: none;
+}
+footer nav li{
+    display: inline;
+    padding-left: 70px;
+}
+footer nav li a{
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+}
+footer nav li a:hover{
+    color: rgb(153, 80, 221);
+}
+/* footer ends here*/
