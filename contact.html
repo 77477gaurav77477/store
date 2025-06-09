@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact -Visual Arrtist Portfolio </title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="visual-artist-logo.svg" alt="Logo"></a>
+        <nav>
+            <ul class="sidebar">
+                <li  onclick="closemenu()"><img src="close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" class="closeBtn" alt=""></li>
+                <li onclick="closemenu()"><a href="index.html">Home</a></li>
+                <li onclick="closemenu()"><a href="work.html">Work</a></li>
+                <li onclick="closemenu()"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><img onclick="showmenu()" src="menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" class="menuBtn" alt=""></li>
+            </ul>
+        </nav>
+    </header><!--Header is completed not responsive but with side bar-->
+
+
+
+
+
+
+
+    <script>
+        const sidebr=document.querySelector('.sidebar')
+        function showmenu(){
+            sidebr.style.display='flex'
+        }
+        function closemenu(){
+            sidebr.style.display='none'
+        }
+    </script>
+
+    
+</body>
+</html>

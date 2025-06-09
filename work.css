@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgb(255, 255, 251);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+/*header starts here*/
+header{
+    padding-left: 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px
+}
+
+header nav ul{
+    list-style: none;
+    margin-right: 40px;
+}
+header nav ul li{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: inline;
+    margin-right: 60px;
+}
+header nav ul li a{
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+header nav ul li a:hover{
+    color: rgb(153, 80, 221);
+}
+#page{
+    color: rgb(153, 80, 221);
+}
+
+/*sidebar starts her*/
+.sidebar{
+    margin-right: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.sidebar li{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.sidebar li a{
+    font-size: 1.3rem;
+}
+.closeBtn{
+    width: 40px;
+    padding:14px 9px;
+    border: 1px dotted black;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.menuBtn{
+    display: none;
+}
+/*header ends here*/
+
+
+/*p1 starting*/
+.p1{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.p1-c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.p1-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.p1-message-link{
+    margin-bottom: 30px;
+}
+.p1-email{
+    font-size: 7rem;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 150px;
+}
+.p1-c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.social-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.p1-nav ul{
+    margin-top:20px ;
+    list-style: none;
+}
+.p1-nav ul li{
+    display: inline;
+}
+.p1-nav ul li a{
+    margin-right: 80px;
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+.p1-nav ul li a:hover{
+    color: rgb(153, 80, 221);
+}
+/*p1 ends here some spacing and sizing left and buton hover affexts*/
+
+/*p2 starts here message box isnt responsive*/
+.p2{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  2fr 3fr;
+    padding-top: 200px;
+    margin-top: 200px;
+
+    background-color: whitesmoke;
+}
+.p2-title{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: whitesmoke;
+}
+.p2-title h3{
+    font-weight: 700;
+    background-color: whitesmoke;
+}
+.p2-form{
+    padding: 20px;
+    background-color: whitesmoke;
+}
+form{
+    background-color: whitesmoke;
+}
+form input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+#message{
+    height: 100px;
+}
+form button{
+    margin-top: 20px;
+    padding: 2px;
+    padding-bottom: 9px;
+    font-size: 1rem;
+    border:none;
+    background-color: whitesmoke;
+    border-bottom: 2px solid rgb(40, 120, 181);
+    cursor: pointer;
+}
+form button:hover{
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+}
+/*p2 ends here message box isnt responsive*/
+
+
+
+
+
+
+/* footer starts here*/
+footer{
+    border: 1px solid rgb(193, 201, 235);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    align-items: flex-end;
+    line-height: 1.7;
+    background-color: white;
+}
+footer nav ul{
+    list-style: none;
+}
+footer nav li{
+    display: inline;
+    padding-left: 70px;
+}
+footer nav li a{
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+    background-color: white;
+}
+footer nav li a:hover{
+    color: rgb(153, 80, 221);
+}
+/* footer ends here*/

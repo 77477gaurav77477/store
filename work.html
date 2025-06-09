@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work -Visual Artist Portfolio</title>
+    <link rel="stylesheet" href="work.css">
+    <link rel="icon" href="cropped-visual-artist-favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="visual-artist-logo.svg" alt="Logo"></a>
+        <nav>
+            <ul class="sidebar">
+                <li  onclick="closemenu()"><img src="close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" class="closeBtn" alt=""></li>
+                <li onclick="closemenu()"><a href="index.html">Home</a></li>
+                <li onclick="closemenu()"><a href="work.html">Work</a></li>
+                <li onclick="closemenu()"><a href="contact.html" id="page">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html" id="page">Contact</a></li>
+                <li><img onclick="showmenu()" src="menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" class="menuBtn" alt=""></li>
+            </ul>
+        </nav>
+    </header><!--Header is completed not responsive but with side bar-->
+
+    <!--The heading part of work-->
+    <section class="p1">
+        <div class="p1-c1">
+            <p class="p1-title">Send me a message</p>
+            <a class="p1-message-link" href="#">Click Here</a>
+            <span>
+                <a href="#"><p class=p1-email>hello@ricarhdh.com</p></a>
+            </span>
+        </div>
+        <div class="p1-c2">
+            <span class="social-title">Or connect with me on socials</span>
+            <nav class="p1-nav">
+                <ul>
+                    <li><a href="">Behance</a></li>
+                    <li><a href="">Dribbble</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!--This is where p1 ends-->
+
+    <!---->
+    <section class="p2">
+        <div class="p2-title">
+            <h3>Let's discuss your brand and business goals and objectives</h3>
+        </div>
+        <div class="p2-form">
+            <form action="#">
+                <input type="text" placeholder="Full name*" required><br>
+                <input type="text" placeholder="Email address*" required ><br>
+                <input id="message" type="text" placeholder="Your message*" required ><br>
+                <button> Submit </button>
+            </form>
+        </div>
+    </section>
+    <!--p2 ends here-->
+    
+
+    <!--footer starts here-->
+    <footer>
+        <div>
+            <p>	&copy; 2025 Visual Artist Portfolio <br> Visual designer </p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Dribbble</a></li>
+                <li><a href="#">Linkedln</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!--footer ends here-->
+    <script>
+        const sidebr=document.querySelector('.sidebar')
+        function showmenu(){
+            sidebr.style.display='flex'
+        }
+        function closemenu(){
+            sidebr.style.display='none'
+        }
+    </script>       
+</body>
+</html>
