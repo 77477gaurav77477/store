@@ -54,7 +54,7 @@ header nav ul li a:hover{
     margin-right: 0;
     top: 0;
     right: 0;
-    position: absolute;
+    position: x;
     display: none;
     flex-direction: column;
     height: 100vh;

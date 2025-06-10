@@ -11,6 +11,11 @@
     font-weight: 500;
     font-style: normal;
     color: black;
+    scroll-behavior: smooth;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 /*header starts here*/
@@ -99,7 +104,7 @@ header nav ul li a:hover{
     margin-bottom: 30px;
 }
 .p1-email{
-    font-size: 7rem;
+    font-size: 6.5rem;
     font-weight: 600;
     text-decoration: underline;
     margin-bottom: 150px;
@@ -168,6 +173,8 @@ form input{
     width: 100%;
     margin-bottom: 20px;
     font-size: 1rem;
+    border: 2px solid rgb(143, 192, 237);
+    background-color: rgb(255, 255, 255);
 }
 #message{
     height: 100px;
@@ -222,3 +229,100 @@ footer nav li a:hover{
     color: rgb(153, 80, 221);
 }
 /* footer ends here*/
+
+
+@media(max-width: 1250px){
+    .p1-email{
+        font-size: 5.2rem;
+    }
+}
+@media(max-width: 1025px){
+    header{
+        padding-left: 2%;
+    }
+    header nav ul{
+        margin-right: 2%;
+    }
+    .p1-email{
+        font-size: 4rem;
+        margin-bottom: 100px;
+    }
+    .p1{
+        width: 95%;
+        margin: 50px auto;
+    }header nav ul li{
+        margin-right: 0px;
+        margin-left: 70px;
+    }
+    .social-title{
+        font-size: 1.4rem;
+    }.p1-nav ul li a{
+        font-size: 1.7rem;
+        margin-right: 60px;
+    }.p2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        padding: 80px 2%;
+    }
+    .p2-form{
+        padding-right: 5%;
+    }
+    footer{
+        padding-right: 8%;
+    }
+    footer nav ul li a{
+        font-size: 1rem;
+    }
+}@media (max-width: 915px){
+    .show{
+        display: none;
+    }
+    .menuBtn{
+        display: block ;
+    }
+    .p1-email{
+        font-size: 3.5rem;
+    }.p2-title h3{
+        font-weight: 600;font-size: 2rem;
+    }
+    footer {
+        padding: 70px 5%;
+    }
+    footer nav ul li a{
+        font-size: 1rem;
+    }
+    footer nav li{
+        padding-left: 30px;
+    }
+}@media (max-width:600px){
+    header{
+        padding-left: 5%;
+    }
+    .p1-title{
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+    .p1-message-link{
+        margin-bottom: 15px;
+    }
+    .p1-email{
+        font-size: 2.5rem;
+    }.p1-nav ul{
+        display: flex;
+        flex-direction: column;
+    }.p2{
+        margin-top: 60px;
+    }.p1-nav ul li a{
+        margin-bottom: 15px;
+    }footer{
+        padding: 40px 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer div p{
+        margin-bottom: 20px;
+    }
+}
