@@ -6,6 +6,7 @@
     <title>Work -Visual Arrtist Portfolio </title>
     <link rel="stylesheet" href="work.css">
     <link rel="icon" href="cropped-visual-artist-favicon-32x32.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -27,42 +28,42 @@
     </header><!--Header is completed not responsive but with side bar-->
 
     <section class="p1">
-        <h2 class="p1-t1">Creating valuable</h2><br>
-        <h2 class="p1-t2">Visual design</h2>
+        <h2 class="p1-t1" data-aos="fade-right">Creating valuable</h2><br>
+        <h2 class="p1-t2" data-aos="fade-right">Visual design</h2>
     </section><!--p1 completed without font visual design-->
 
     <section class="p2">
-        <div class="p2-card1">
+        <div class="p2-card1" data-aos="zoom-in-up" dats-aos-duration="3000" data-aos-easing="ease-in-out">
             <a href="#"><img src="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-5.jpg" alt=""></a>
             <a href="#"><h4 class="p2-card-title">Eleifend et quis</h4></a>
             <p class="p2-card-para">Visual Identity</p>
         </div>
-        <div class="p2-card2">
+        <div class="p2-card2" data-aos="fade-down-left" dats-aos-duration="3000" data-aos-easing="ease-in-out">
             <a href="#"><img src="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-4.jpg" alt=""></a>
             <a href="#"><h4 class="p2-card-title">Pulvinar libero risus</h4></a>
             <p class="p2-card-para">Visual effect</p>
         </div>
-        <div class="p2-card3">
+        <div class="p2-card3" data-aos="fade-down-right" dats-aos-duration="3000" data-aos-easing="ease-in-out">
             <a href="#"><img src="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-2.jpg" alt=""></a>
             <a href="#"><h4 class="p2-card-title">Pellentesque ridiculus</h4></a>
             <p class="p2-card-para">Newsprint</p>
         </div>
-        <div class="p2-card4">
+        <div class="p2-card4" data-aos="fade-down-left" dats-aos-duration="3000" data-aos-easing="ease-in-out">
             <a href="#"><img src="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-3.jpg" alt=""></a>
             <a href="#"><h4 class="p2-card-title">Vitae in elit</h4></a>
             <p class="p2-card-para">Visual Identity</p>
         </div>
-        <div class="p2-card5">
+        <div class="p2-card5" data-aos="fade-down-right" dats-aos-duration="3000" data-aos-easing="ease-in-out">
             <a href="#"><img src="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-1.jpg" alt=""></a>
             <a href="#"><h4 class="p2-card-title">Sed fusce</h4></a>
             <p class="p2-card-para">Campaign</p>
         </div>
-        <div class="p2-card6">
+        <div class="p2-card6" data-aos="fade-down-left" dats-aos-duration="3000" data-aos-easing="ease-in-out">
             <a href="#"><img src="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/04/visual-artist-recent-work-image-6.jpg" alt=""></a>
             <a href="#"><h4 class="p2-card-title">Quis urna cras</h4></a>
             <p class="p2-card-para">Branding</p>
         </div>
-        <div class="p2-card7">
+        <div class="p2-card7" data-aos="fade-down-right" dats-aos-duration="3000" data-aos-easing="ease-in-out">
             <a href="#"><img src="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/04/visual-artist-recent-work-image-7.jpg" alt=""></a>
             <a href="#"><h4 class="p2-card-title">Nunc commodo</h4></a>
             <p class="p2-card-para">Visual identity</p> 
@@ -70,8 +71,8 @@
     </section><!--p2 completed without responsiveness-->
 
     <section class="p3">
-        <p class="p3-t1">Want to work together?</p>
-        <a href="#"><p class="p3-t2"> hello@ricarhdh.com</p></a>
+        <p class="p3-t1" data-aos="fade-right" >Want to work together?</p>
+        <a href="#" ><p class="p3-t2" data-aos="fade-right" > hello@ricarhdh.com</p></a>
     </section><!--p3 completed -->
 
     <!--Footer starts here-->
@@ -97,6 +98,14 @@
             sidebr.style.display='none'
         }
     </script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            disable: window.innerWidth < 768, // Disables on screens smaller than 768px
+            duration:1000,
+            anchorPlacement: 'top-bottom'
+        });
+    </script>
 </body>
 </html>
