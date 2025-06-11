@@ -281,6 +281,9 @@ footer nav li a:hover{
     .menuBtn{
         display: block ;
     }
+    .sidebar{
+        position: fixed;
+    }
     .p1-email{
         font-size: 3.5rem;
     }.p2-title h3{
