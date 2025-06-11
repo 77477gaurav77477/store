@@ -107,6 +107,9 @@ header nav ul li a:hover{
     margin-top: 350px;
     margin-bottom: 150px;
 }
+.p2 img{
+    width: 100%;
+}
 .p2-card-title{
     margin-top: 10px;
     font-size: 1.8rem;
@@ -181,3 +184,110 @@ footer nav li a:hover{
     color: rgb(153, 80, 221);
 }
 /* footer ends here*/
+
+@media (max-width:1500px){
+    .p1{
+        padding-top: 120px;
+    }
+    .p1-t1{
+        font-size: 5.6rem;
+    }.p1-t2{
+        font-size: 5.6rem;
+    }
+    .p2{
+        margin-top: 300px;
+    }
+    .p3-t1{
+        font-size:1.8rem;
+        margin-bottom: 15px;
+    }
+    .p3-t2{
+        font-size: 5.6rem;
+    }
+}@media (max-width:1025px){
+    header{
+        padding-left: 3%;
+    }header nav ul li{
+        margin-right: 0;
+        margin-left: 60px;
+    }header nav ul{
+        margin-right: 0px;
+    }
+    .p1{
+        width: 95%;
+        margin: auto;
+    }
+    .p1-t1{
+        font-size: 4rem;
+    }.p1-t2{
+        font-size: 4rem;
+    }.p2{
+        width: 95%;
+        margin-top: 100px;
+    }
+    .p3{
+        width: 95%;
+        margin:auto;
+        padding: 100px 3%;
+    }
+    .p3-t1{
+        font-size: 1.7rem;
+    }
+    .p3-t2{
+        font-size: 4rem;
+    }footer{
+        padding : 50px 5%;
+    }footer nav ul li a{
+        font-size: 1rem;
+    }
+}@media(max-width:920px){
+    .menuBtn{
+        display: block;
+    }.show{
+        display: none;
+    }
+}
+@media (max-width:770px){
+    .p1{
+        padding-top: 50px;
+    }
+    .p1-t1{
+        font-size: 2rem;
+    }.p1-t2{
+        font-size: 2rem;
+    }.p2{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .p2-card2{
+        margin-top: 20px;
+    }.p2-card3{
+        margin-top: 20px;
+    }.p2-card4{
+        margin-top: 20px;
+    }.p2-card5{
+        margin-top: 20px;
+    }.p2-card6{
+        margin-top: 20px;
+    }.p2-card7{
+        margin-top: 20px;
+    }
+    .p3-t1{
+        font-size: 2.rem;
+    }
+    .p3-t2{
+        font-size: 2rem;
+    }
+
+    footer{
+        padding: 40px 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }footer div{
+        margin-bottom: 20px;
+    }
+
+}
